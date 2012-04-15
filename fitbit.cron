@@ -1,0 +1,8 @@
+#! /bin/sh
+
+mv /tmp/fitbit.log /tmp/fitbit.log.old
+exec > /tmp/fitbit.log 2>&1
+
+cd /home/pace/fitbit
+./fitbit
+

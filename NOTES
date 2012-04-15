@@ -1,0 +1,333 @@
+Bus 005 Device 006: ID 10c4:84c4 Cygnal Integrated Products, Inc. 
+Device Descriptor:
+  bLength                18
+  bDescriptorType         1
+  bcdUSB               1.10
+  bDeviceClass            0 (Defined at Interface level)
+  bDeviceSubClass         0 
+  bDeviceProtocol         0 
+  bMaxPacketSize0        64
+  idVendor           0x10c4 Cygnal Integrated Products, Inc.
+  idProduct          0x84c4 
+  bcdDevice            1.00
+  iManufacturer           1 Silicon Labs
+  iProduct                2 Fitbit Base Station
+  iSerial                 3 01014F6A298810F8802014F6A2988
+  bNumConfigurations      1
+  Configuration Descriptor:
+    bLength                 9
+    bDescriptorType         2
+    wTotalLength           32
+    bNumInterfaces          1
+    bConfigurationValue     1
+    iConfiguration          0 
+    bmAttributes         0x80
+      (Bus Powered)
+    MaxPower              156mA
+    Interface Descriptor:
+      bLength                 9
+      bDescriptorType         4
+      bInterfaceNumber        0
+      bAlternateSetting       0
+      bNumEndpoints           2
+      bInterfaceClass       255 Vendor Specific Class
+      bInterfaceSubClass      0 
+      bInterfaceProtocol      0 
+      iInterface              2 Fitbit Base Station
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x81  EP 1 IN
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               0
+      Endpoint Descriptor:
+        bLength                 7
+        bDescriptorType         5
+        bEndpointAddress     0x01  EP 1 OUT
+        bmAttributes            2
+          Transfer Type            Bulk
+          Synch Type               None
+          Usage Type               Data
+        wMaxPacketSize     0x0040  1x 64 bytes
+        bInterval               0
+Device Status:     0x0000
+  (Bus Powered)
+
+
+request 0x2 got 2
+0000: 00 00                                             ..              
+
+request 0x4 got 2
+0000: 00 08                                             ..              
+      = 2048
+
+request 0x8 got 1
+0000: 10                                                .               
+      = 16
+
+request 0xc got 2
+0000: 00 00                                             ..              
+
+request 0xe got 6
+0000: 00 00 00 00 00 00                                 ......          
+
+request 0xf got 66
+0000: 42 00 00 01 01 00 00 00 00 00 00 00 00 02 00 00   B...............
+0010: 00 02 00 00 c0 c6 2d 00 01 00 00 00 3f 01 00 00   ....@F-.....?...
+0020: 7f 00 00 00 f0 ff 07 10 0f 00 07 1f 00 02 00 00   ....p...........
+0030: 00 02 00 00 00 00 00 00 00 00 00 00 33 00 2e 00   ............3...
+0040: 30 00                                             0.              
+
+request 0x10 got 19
+0000: 00 00 00 00 08 00 00 00 00 00 00 00 00 00 00 00   ................
+0010: 00 01 00                                          ...             
+
+request 0x14 got 16
+0000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+
+request 0x16 got 2
+0000: 00 00                                             ..              
+
+request 0x18 got 1
+0000: 00                                                .               
+
+request 0x1d got 4
+0000: 00 c2 01 00                                       .B..            
+  = 115200
+
+ok
+
+
+
+1537 bytes from control_read (0xff, 0x370b, 0, buf, sizeof buf)
+
+0000: 02 04 03 09 04 00 00 00 00 28 03 46 00 69 00 74   .........(.F.i.t
+0010: 00 62 00 69 00 74 00 20 00 42 00 61 00 73 00 65   .b.i.t. .B.a.s.e
+0020: 00 20 00 53 00 74 00 61 00 74 00 69 00 6f 00 6e   . .S.t.a.t.i.o.n
+0030: 00 42 00 72 00 69 00 64 00 67 00 65 00 20 00 43   .B.r.i.d.g.e. .C
+0040: 00 6f 00 6e 00 74 00 72 00 6f 00 6c 00 6c 00 65   .o.n.t.r.o.l.l.e
+0050: 00 72 00 00 00 00 00 00 00 00 00 00 00 00 00 00   .r..............
+0060: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0070: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00a0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00b0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00c0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00d0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+00f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0100: 00 00 00 00 00 00 00 00 3c 03 30 00 31 00 30 00   ........<.0.1.0.
+0110: 31 00 34 00 46 00 36 00 41 00 32 00 39 00 38 00   1.4.F.6.A.2.9.8.
+0120: 38 00 31 00 30 00 46 00 38 00 38 00 30 00 32 00   8.1.0.F.8.8.0.2.
+0130: 30 00 31 00 34 00 46 00 36 00 41 00 32 00 39 00   0.1.4.F.6.A.2.9.
+0140: 38 00 38 00 00 00 00 00 00 00 00 00 00 00 00 00   8.8.............
+0150: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0160: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0170: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0180: 00 00 00 00 00 00 00 00 02 12 01 10 01 00 00 00   ................
+0190: 40 c4 10 c4 84 00 01 01 02 03 01 09 02 20 00 01   @D.D......... ..
+01a0: 01 00 80 4e 09 04 00 00 02 ff 00 00 02 07 05 81   ...N............
+01b0: 02 40 00 00 07 05 01 02 40 00 00 00 00 00 00 00   .@......@.......
+01c0: 00 00 00 00 1a 03 53 00 69 00 6c 00 69 00 63 00   ......S.i.l.i.c.
+01d0: 6f 00 6e 00 20 00 4c 00 61 00 62 00 73 00 00 00   o.n. .L.a.b.s...
+01e0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+01f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+0200: ff c2 af e5 96 20 e7 fb 75 96 0e e4 f5 97 e5 96   .B/e. g{u..du.e.
+0210: 20 e7 fb 75 96 11 75 97 40 74 ff 78 98 f6 08 f6    g{u..u.@t.x.v.v
+0220: 12 3b 0c 78 94 e6 b4 08 00 50 45 90 3a 31 f8 28   .;.x.f4..PE.:1x(
+0230: 28 73 02 3a 49 02 3a 4e 02 3a 53 02 3a 58 02 3a   (s.:I.:N.:S.:X.:
+0240: 5d 02 3a 1f 02 3a 62 02 3a 67 90 39 87 80 1c 12   ].:..:b.:g.9....
+0250: 3b ca 80 cc 12 3a e0 80 c7 12 3b f0 80 c2 12 3a   ;J.L.:`.G.;p.B.:
+0260: 7a 80 bd 12 3b c6 80 b8 90 37 ff e4 93 ff 80 02   z.=.;F.8.7.d....
+0270: 7f 02 12 3d 2f 12 3d 42 80 a6 22 78 98 e6 fe 08   ...=/.=B.&"x.f~.
+0280: e6 8e 14 f5 15 e4 f5 12 f5 13 fd fc 05 15 e5 15   f..u.du.u.}|..e.
+0290: ae 14 70 02 05 14 14 f5 82 8e 83 e4 93 fe ee 62   ..p....u...d.~nb
+02a0: 12 e4 fb fa e5 13 25 e0 f5 13 e5 12 33 f5 12 30   .d{ze.%`u.e.3u.0
+02b0: e7 06 63 13 21 63 12 10 0b bb 00 01 0a eb 64 08   g.c.!c...;...kd.
+02c0: 4a 70 e1 0d bd 00 01 0c e4 b5 05 c0 ec b4 02 bc   Jpa.=...d5.@l4.<
+02d0: af 13 e5 13 12 3d 2f e5 12 ff 12 3d 2f 12 3d 42   /.e..=/e...=/.=B
+02e0: 22 c3 78 98 e6 94 3a 40 04 7f 02 80 19 78 98 e6   "Cx.f.:@.....x.f
+02f0: fe 08 e6 f5 82 8e 83 75 b7 a5 75 b7 f1 75 8f 03   ~.fu...u7%u7qu..
+0300: e4 f0 f5 8f 7f 01 12 3d 2f 12 3d 42 22 e4 f5 16   dpu....=/.=B"du.
+0310: e5 16 60 03 02 3b c5 e5 96 20 e7 fb 75 96 91 e5   e.`..;Ee. g{u..e
+0320: 96 20 e7 fb 80 12 e5 30 20 e0 12 e5 96 20 e7 fb   . g{..e0 `.e. g{
+0330: 75 96 91 e5 96 20 e7 fb 85 97 30 80 e9 75 96 20   u..e. g{..0.iu. 
+0340: 43 96 c0 e4 f5 16 e5 96 20 e7 fb 74 6e 25 16 f8   C.@du.e. g{tn%.x
+0350: a6 97 05 16 e5 16 b4 07 ed e5 96 20 e7 fb e4 f5   &...e.4.me. g{du
+0360: 96 74 6e 25 16 f8 a6 97 78 71 e6 78 94 f6 78 72   .tn%.x&.xqfx.vxr
+0370: e6 78 95 f6 78 73 e6 78 96 f6 75 30 40 78 6f e6   fx.vxsfx.vu0@xof
+0380: b4 ff 05 75 16 01 80 30 78 74 e6 f5 17 70 05 43   4..u...0xtfu.p.C
+0390: 30 08 80 21 e5 96 20 e7 fb 75 96 11 85 30 97 e4   0..!e. g{u...0.d
+03a0: f5 16 e5 16 c3 95 17 50 09 7f ff 12 3d 2f 05 16   u.e.C..P....=/..
+03b0: 80 f0 75 30 0a e4 f5 16 e5 96 20 e7 fb 75 96 11   .pu0.du.e. g{u..
+03c0: 85 30 97 02 3b 0f 22 43 ef 10 22 78 95 e6 f5 12   .0..;."Co."x.fu.
+03d0: c3 94 1d 40 04 7f 02 80 11 78 97 a6 12 e6 f8 e4   C..@.....x.&.fxd
+03e0: 79 99 f7 e8 25 e0 19 f7 7f 01 12 3d 2f 12 3d 42   y.wh%`.w...=/.=B
+03f0: 22 7f 01 c3 78 98 e6 94 3a 40 01 0f ef 64 02 60   "..Cx.f.:@..od.`
+0400: 03 02 3c 82 75 96 20 f5 12 f5 13 e5 96 20 e7 fb   ..<.u. u.u.e. g{
+0410: 75 96 91 e5 96 20 e7 fb 80 12 e5 30 20 e0 12 e5   u..e. g{..e0 `.e
+0420: 96 20 e7 fb 75 96 91 e5 96 20 e7 fb 85 97 30 80   . g{u..e. g{..0.
+0430: e9 e4 f5 14 f5 15 e5 96 20 e7 fb 75 96 a0 e5 96   idu.u.e. g{u. e.
+0440: 20 e7 fb 85 97 30 05 15 e5 15 70 02 05 14 64 40    g{..0..e.p...d@
+0450: 45 14 70 e2 75 30 40 e5 13 64 07 45 12 70 03 43   E.pbu0@e.d.E.p.C
+0460: 30 08 e5 96 20 e7 fb 75 96 11 85 30 97 05 13 e5   0.e. g{u...0...e
+0470: 13 70 02 05 12 64 08 45 12 70 90 12 3b 0c 7f 02   .p...d.E.p..;...
+0480: 02 3d 28 78 98 e6 fe 08 e6 ff 75 8f 01 75 96 20   .=(x.f~.f.u..u. 
+0490: e4 f5 12 f5 13 e5 96 20 e7 fb 75 96 91 e5 96 20   du.u.e. g{u..e. 
+04a0: e7 fb 80 12 e5 30 20 e0 12 e5 96 20 e7 fb 75 96   g{..e0 `.e. g{u.
+04b0: 91 e5 96 20 e7 fb 85 97 30 80 e9 e4 f5 14 f5 15   .e. g{..0.idu.u.
+04c0: e5 96 20 e7 fb 75 96 a0 e5 96 20 e7 fb 85 97 30   e. g{u. e. g{..0
+04d0: 75 b7 a5 75 b7 f1 e5 30 64 55 fd 0f ef aa 06 70   u7%u7qe0dU}.o*.p
+04e0: 01 0e 14 f5 82 8a 83 ed f0 05 15 e5 15 70 02 05   ...u...mp..e.p..
+04f0: 14 64 40 45 14 70 c9 75 30 40 e5 13 64 07 45 12   .d@E.pIu0@e.d.E.
+0500: 70 03 43 30 08 e5 96 20 e7 fb 75 96 11 85 30 97   p.C0.e. g{u...0.
+0510: 05 13 e5 13 70 02 05 12 64 08 45 12 60 03 02 3c   ..e.p...d.E.`..<
+0520: 94 e4 f5 8f 12 3b 0c 7f 01 12 3d 2f 12 3d 42 22   .du..;....=/.=B"
+0530: 75 30 02 e5 96 20 e7 fb 75 96 20 8f 97 e5 96 20   u0.e. g{u. ..e. 
+0540: e7 fb 22 43 30 08 e5 96 20 e7 fb 75 96 11 85 30   g{"C0.e. g{u...0
+0550: 97 22 ff ff ff ff ff ff ff ff ff ff ff ff ff ff   ."..............
+0560: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff   ................
+0570: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff   ................
+0580: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff   ................
+0590: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff   ................
+05a0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff   ................
+05b0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff   ................
+05c0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff   ................
+05d0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff   ................
+05e0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff   ................
+05f0: ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff ff   ................
+0600: ff                                                .       
+
+
+	while (1) {
+		device_number = getrandom () & 0xffff;
+		if (device_number != 0 && device_number != 0xffff)
+			break;
+	}
+	pairing_request = 0;
+	device_type = 0;
+	transmission_type = 0;
+
+
+
+*** fitbit_ant_init
+ant reset requested
+0000: a4 01 4a 00 ef                                    $.J.o           
+send network key
+0000: a4 09 46 00 00 00 00 00 00 00 00 00 eb            $.F.........k   
+assign channel
+0000: a4 03 42 00 00 00 e5                              $.B...e         
+received:
+0000: a4 03 40 00 46 00 a1                              $.@.F.!         
+check_ok_response: chan 0(0x0); msgid 70(0x46); msgcode 0(0x0)
+set_channel_period
+0000: a4 03 43 00 00 10 f4                              $.C...t         
+received:
+0000: a4 03 40 00 43 00 a4                              $.@.C.$         
+check_ok_response: chan 0(0x0); msgid 67(0x43); msgcode 0(0x0)
+set_channel_frequency
+0000: a4 02 45 00 02 e1                                 $.E..a          
+received:
+0000: a4 03 40 00 45 00 a2                              $.@.E."         
+check_ok_response: chan 0(0x0); msgid 69(0x45); msgcode 0(0x0)
+set_transmit_power
+0000: a4 03 47 00 00 03 e3                              $.G...c         
+received:
+0000: a4 03 40 00 47 00 a0                              $.@.G.          
+check_ok_response: chan 0(0x0); msgid 71(0x47); msgcode 0(0x0)
+set_search_timeout
+0000: a4 02 44 00 ff 1d                                 $.D...          
+received:
+0000: a4 03 40 00 44 00 a3                              $.@.D.#         
+check_ok_response: chan 0(0x0); msgid 68(0x44); msgcode 0(0x0)
+set_channel_id
+0000: a4 04 51 ff ff 01 01 f1                           $.Q....q        
+received:
+0000: a4 03 40 1f 51 28 81                              $.@.Q(.         
+check_ok_response: chan 31(0x1f); msgid 81(0x51); msgcode 40(0x28)
+0000: 40 1f 51 28                                       @.Q(            
+dellalt$ 
+
+
+
+
+*** fitbit_ant_init
+ant reset requested
+0000: a4 01 4a 00 ef                                    $.J.o           
+send network key
+0000: a4 09 46 00 00 00 00 00 00 00 00 00 eb            $.F.........k   
+assign channel
+0000: a4 03 42 00 00 00 e5                              $.B...e         
+>>> a4 03 40 00 46 00 a1
+received:
+0000: a4 03 40 00 46 00 a1                              $.@.F.!         
+check_ok_response: chan 0(0x0); msgid 70(0x46); msgcode 0(0x0)
+set_channel_period
+0000: a4 03 43 00 00 10 f4                              $.C...t         
+>>> a4 03 40 00 42 00 a5
+received:
+0000: a4 03 40 00 42 00 a5                              $.@.B.%         
+check_ok_response: chan 0(0x0); msgid 66(0x42); msgcode 0(0x0)
+set_channel_frequency
+0000: a4 02 45 00 02 e1                                 $.E..a          
+>>> a4 03 40 00 43 00 a4
+received:
+0000: a4 03 40 00 43 00 a4                              $.@.C.$         
+check_ok_response: chan 0(0x0); msgid 67(0x43); msgcode 0(0x0)
+set_transmit_power
+0000: a4 03 47 00 00 03 e3                              $.G...c         
+>>> a4 03 40 00 45 00 a2
+received:
+0000: a4 03 40 00 45 00 a2                              $.@.E."         
+check_ok_response: chan 0(0x0); msgid 69(0x45); msgcode 0(0x0)
+set_search_timeout
+0000: a4 02 44 00 ff 1d                                 $.D...          
+>>> a4 03 40 00 47 00 a0
+received:
+0000: a4 03 40 00 47 00 a0                              $.@.G.          
+check_ok_response: chan 0(0x0); msgid 71(0x47); msgcode 0(0x0)
+set_channel_id
+0000: a4 04 51 ff ff 01 01 f1                           $.Q....q        
+>>> a4 03 40 00 44 00 a3
+received:
+0000: a4 03 40 00 44 00 a3                              $.@.D.#         
+check_ok_response: chan 0(0x0); msgid 68(0x44); msgcode 0(0x0)
+ok
+
+
+
+2008-12-31 19:00:15 (   0.000)  09 04 05  .  .  . 04  .  .  .  .
+2008-12-31 19:00:03 (  -0.003)   .  . 02  .  .  .  .  .  .  .  .
+2008-12-31 19:13:14 (   0.216)   .  . 03  .  .  .  .  .  .  .  .
+2008-12-31 19:13:21 (   0.218)   .  . 02  .  .  .  .  .  .  .  .
+2008-12-31 19:13:38 (   0.223)   .  . 03  .  .  .  .  .  .  .  .
+2008-12-31 19:13:43 (   0.224)   .  . 02  .  .  .  .  .  .  .  .
+2008-12-31 20:04:29 (   1.071)   .  . 03  .  .  .  .  .  .  .  .
+2008-12-31 20:04:31 (   1.071)   .  . 02  .  .  .  .  .  .  .  .
+2009-01-02 21:46:02 (  50.763)   .  . 03  .  .  .  .  .  .  .  .
+2009-01-02 21:46:09 (  50.765)   .  . 02  .  .  .  .  .  .  .  .
+2009-01-02 21:46:23 (  50.769)   .  . 03  .  .  .  .  .  .  .  .
+2009-01-02 21:47:42 (  50.791)   .  . 02  .  .  .  .  .  .  .  .
+2009-01-02 21:47:55 (  50.794)   .  . 03  .  .  .  .  .  .  .  .
+2009-01-02 21:49:32 (  50.821)   .  . 02  .  .  .  .  .  .  .  .
+2009-01-03 10:31:19 (  63.518)   .  . 03  .  .  .  .  .  .  .  .
+2009-01-03 10:32:16 (  63.534)   .  . 02  .  .  .  .  .  .  .  .
+2009-01-03 10:49:52 (  63.827)   .  . 03  .  .  .  .  .  .  .  .
+2009-01-03 10:49:53 (  63.827)   .  . 02  .  .  .  .  .  .  .  .
+2009-01-03 10:52:24 (  63.869)   .  . 03  .  .  .  .  .  .  .  .
+2009-01-03 10:52:26 (  63.870)   .  . 02  .  .  .  .  .  .  .  .
+2009-01-03 10:53:15 (  63.883)   .  . 03  .  .  .  .  .  .  .  .
+2009-01-03 10:53:17 (  63.884)   .  . 02  .  .  .  .  .  .  .  .
+2009-01-03 10:56:53 (  63.944)   .  . 03  .  .  .  .  .  .  .  .
+2009-01-03 10:56:56 (  63.945)   .  . 02  .  .  .  .  .  .  .  .
+2009-01-03 11:03:05 (  64.047)   .  . 03  .  .  .  .  .  .  .  .
+2009-01-03 11:03:06 (  64.047)   .  . 02  .  .  .  .  .  .  .  .
+2009-01-03 11:21:03 (  64.347)   .  . 03  .  .  .  .  .  .  .  .
+2009-01-03 11:21:04 (  64.347)   .  . 02  .  .  .  .  .  .  .  .
+2009-01-03 15:17:38 (  68.290)   .  . 03  .  .  .  .  .  .  .  .
+2009-01-03 15:18:10 (  68.299)   .  . 02  .  .  .  .  .  .  .  .
